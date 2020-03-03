@@ -1,140 +1,292 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Jon Jackson - web developer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    
-</head>
-<body>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
     <!-- Nav Bar W/ Toggling Hamburger Menu -->
     <nav class="nav">
-        <span>Jon Jackson</span>
-        <label for="toggle">&#9776;</label>
-        <input type="checkbox" id="toggle" />
-        <div class="menu">
-            <a href="#about-me-section">About</a>
-            <a href="#project-section">Projects</a>
-            <a href="#contact-section">Contact</a>
-        </div>
+      <span>Jon Jackson</span>
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle" />
+      <div class="menu">
+        <a href="#about-me-section">About</a>
+        <a href="#project-section">Projects</a>
+        <a href="#contact-section">Contact</a>
+      </div>
     </nav>
     <!-- End Nav Bar-->
-    <main role="main">
-        <section id="about-me-section">
-            <header role="banner">
-                <img class="profile" src="jon_pic.jpg" alt="Jon Jackson" height="220" width="220">
-                <h1>About Me</h1>
-                <p class="about-me">I am a web developer and recent graduate of the Engineering Immersion Program through Thinkful. Coding is a great career fit for me because I thoroughly enjoy creating and researching solutions that bring life to new and existing ideas.
-                    <br>
-                    <br> I am a creative person, whether through coding or through my passion for music. I hold a Bachelor of Arts Degree in Music Education and a Master of Arts in Music Composition. I am a percussionist and enjoy playing all genres of music, as well as creating my own compositions and seeing them come to life.
-                    <br>
-                    <br> I am excited about working on a team with other developers and designers. Please feel free to browse through my projects or to contact me by using the links below.
-                </p>
-            </header>
-        </section>
-        <!-- PROJECTS -->
-        <section class="projects" id="project-section">
-            <h2>Projects</h2>
-            <p class="projects-heading">Here are some screenshots and descriptions of some web development projects I have made. Click on the links below the screenshots to see the live page for each site. </p>
-            <!-- AP-THEORY-->
-<div class="slideshow-container">
-  <div class="mySlides1">
-    <img class="slide-image" src="theory-home.png" >
-  </div>
+    <main>
+      <section id="about-me-section">
+        <header role="banner">
+          <img
+            class="profile"
+            src="jon_pic.jpg"
+            alt="Jon Jackson"
+            height="220"
+            width="220"
+          />
+          <h1>About Me</h1>
+          <p class="about-me">
+            I am a web developer and recent graduate of the Engineering
+            Immersion Program through Thinkful. Coding is a great career fit for
+            me because I thoroughly enjoy creating and researching solutions
+            that bring life to new and existing ideas.
+            <br />
+            <br />
+            I am a creative person, whether through coding or through my passion
+            for music. I hold a Bachelor of Arts Degree in Music Education and a
+            Master of Arts in Music Composition. I am a percussionist and enjoy
+            playing all genres of music, as well as creating my own compositions
+            and seeing them come to life.
+            <br />
+            <br />
+            I am excited about working on a team with other developers and
+            designers. Please feel free to browse through my projects or to
+            contact me by using the links below.
+          </p>
+        </header>
+      </section>
+      <!-- PROJECTS -->
+      <section class="projects" id="project-section">
+        <h2>Projects</h2>
+        <p class="projects-heading">
+          Here are some screenshots and descriptions of some web development
+          projects I have made. Click on the links below the screenshots to see
+          the live page for each site.
+        </p>
+        <!-- AP-THEORY-->
+        <div class="slideshow-container">
+          <div class="mySlides1">
+            <img
+              class="slide-image"
+              src="theory-home.png"
+              alt="theory-home-page"
+            />
+          </div>
 
-  <div class="mySlides1">
-    <img class="slide-image" src="theory-topic.png" >
-  </div>
+          <div class="mySlides1">
+            <img
+              class="slide-image"
+              src="theory-topic.png"
+              alt="theory-topic-page"
+            />
+          </div>
 
-  <div class="mySlides1">
-    <img class="slide-image" src="theory-quiz.png" >
-  </div>
+          <div class="mySlides1">
+            <img
+              class="slide-image"
+              src="theory-quiz.png"
+              alt="theory-quiz-page"
+            />
+          </div>
 
-  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-</div>
-            <p class="project-description">A guide for Advanced Placement Music Theory class! Contains Topic Overviews and graded practice Quizzes to help high school students succeed on the AP Music Theory Exam.<br><br>This project utilized React, Node/Express, PostgreSQL, and HTML/CSS.</p>
-            <!-- Live Link and GitHub Repo Link-->
-            <div class="links">
-                <a class="project-link" target="_blank" href="https://ap-theory.now.sh/">AP-Theory Site</a>
-                <span>|</span>
-                <a class="github-link" target="_blank" href="https://github.com/jon424/new-AP-Theory-Client">GitHub Client Repo</a>
-                <span>|</span>
-                <a class="github-link" target="_blank" href="https://github.com/jon424/AP-Theory-Server">GitHub Server Repo</a>
-            </div>
+          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+        </div>
+        <p class="project-description">
+          A guide for Advanced Placement Music Theory class! Contains Topic
+          Overviews and graded practice Quizzes to help high school students
+          succeed on the AP Music Theory Exam.<br /><br />This project utilized
+          React, Node/Express, PostgreSQL, and HTML/CSS.
+        </p>
+        <!-- Live Link and GitHub Repo Link-->
+        <div class="links">
+          <a
+            class="project-link"
+            target="_blank"
+            href="https://ap-theory.now.sh/"
+            >AP-Theory Site</a
+          >
+          <span>|</span>
+          <a
+            class="github-link"
+            target="_blank"
+            href="https://github.com/jon424/new-AP-Theory-Client"
+            >GitHub Client Repo</a
+          >
+          <span>|</span>
+          <a
+            class="github-link"
+            target="_blank"
+            href="https://github.com/jon424/AP-Theory-Server"
+            >GitHub Server Repo</a
+          >
+        </div>
 
-            <!-- SpaceR-->
-            <div class="slideshow-container">
-                <div class="mySlides2">
-                  <img src="homepage_view.png" style="width:75%">
-                </div>
-              
-                <div class="mySlides2">
-                  <img class="slide-image" src="full_on_view.png" style="width:75%">
-                </div>
-              
-                <div class="mySlides2">
-                  <img class="slide-image" src="login_view.png" style="width:75%">
-                </div>
+        <!-- SpaceR-->
+        <div class="slideshow-container">
+          <div class="mySlides2">
+            <img
+              src="homepage_view.png"
+              style="width:75%"
+              alt="SpaceR-homepage-screenshot"
+            />
+          </div>
 
-                <div class="mySlides2">
-                    <img class="slide-image" src="translate_view.png" style="width:75%">
-                  </div>
-              
-                <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-              </div>
-                          <p class="project-description">SpaceR is an application designed to help users memorize words in a foreign language using the evidence-based learning technique of spaced repetition to provide an interactive learning experience for the user.<br><br>A foreign word is displayed on the screen, prompting the user to type in the English translation of the word. The user then receives feedback on their answer - whether it was correct or incorrect. The foreign word is then shuffled back into the "stack" of vocabulary words. Words that the user translated incorrectly are shown more frequently than words that were correctly translated in order to reinforce learning of the vocabulary.<br><br>Created by Jon Jackson and Dana Zinatbakhsh, SpaceR was developed with React, Node/Express, PostgreSQL, Supertest, Mocha, Chai, Cypress, and HTML/CSS. This app also includes user authentication through JSON Web Tokens.</p>
-                          <!-- Live Link and GitHub Repo Link-->
-                          <div class="links">
-                              <a class="project-link" target="_blank" href="https://space-r.now.sh/">SpaceR Site</a>
-                              <span>|</span>
-                              <a class="github-link" target="_blank" href="https://github.com/MrNanosh/spaced-repetition">GitHub Client Repo</a>
-                              <span>|</span>
-                              <a class="github-link" target="_blank" href="https://github.com/MrNanosh/spaced-repetition-api">GitHub Server Repo</a>
-                          </div>    
-                          
-                          
- <!--digi-doodle-->
- <div class="slideshow-container">
-    <div class="mySlides3">
-      <img class="slide-image" src="digi3.png" style="width:75%">
-    </div>
-  
-    <div class="mySlides3">
-      <img class="slide-image" src="digi1.png" style="width:75%">
-    </div>
-  
-    <div class="mySlides3">
-      <img class="slide-image" src="digi2.png" style="width:75%">
-    </div>
-  
-    <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
-  </div>
-              <p class="project-description">Digi-Doodle is an application that uses Canvas and Socket.io to re-create the classic game, Pictionary. A user signs up with a username and is automatically navigated to an avaliable game. Players take turns drawing and guessing the corresponding prompts on the screen. When the prompt is answered correctly, the drawer is awarded 2 points and the user who guesses correctly receives one point. The first person who reaches 15 points wins the game!<br><br>Built by Sophia Koeut, Michael Weedman, Jon Jackson, Austin Tumlinson, and Daniel Kent.<br><br>Technologies used: HTML/CSS, React, Restful API, Cookies, Socket.io, Jest, Enzyme, Node/Express, Mocha, Chai. </p>
-              <!-- Live Link and GitHub Repo Link-->
-              <div class="links">
-                  <a class="project-link" target="_blank" href="https://digi-doodle.now.sh/">Digi-Doodle Site</a>
-                  <span>|</span>
-                  <a class="github-link" target="_blank" href="https://github.com/thinkful-ei-iguana/digi-doodle-client">GitHub Client Repo</a>
-                  <span>|</span>
-                  <a class="github-link" target="_blank" href="https://github.com/thinkful-ei-iguana/digi-doodle-server">GitHub Server Repo</a>
-              </div>    
+          <div class="mySlides2">
+            <img
+              class="slide-image"
+              src="full_on_view.png"
+              style="width:75%"
+              alt="SpaceR-full-page-screenshot"
+            />
+          </div>
 
-        </section>
-        <!-- END PROJECTS -->
-        <!-- CONTACT INFO -->
-        <section class="contact" id="contact-section">
-            <h3>Contact</h3>
-            <p class="contact-description">You can reach me by email at
-                <A HREF="mailto:jonathanjackson424@gmail.com">jonathanjackson424@gmail.com</A>! Also, please find my GitHub and LinkedIn profile pages at these links: </p>
-            <!--CONTACT FORM -->
-            <!--
+          <div class="mySlides2">
+            <img
+              class="slide-image"
+              src="login_view.png"
+              style="width:75%"
+              alt="SpaceR-login-page-screenshot"
+            />
+          </div>
+
+          <div class="mySlides2">
+            <img
+              class="slide-image"
+              src="translate_view.png"
+              style="width:75%"
+              alt="SpaceR-translation-view-screenshot"
+            />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+        </div>
+        <p class="project-description">
+          SpaceR is an application designed to help users memorize words in a
+          foreign language using the evidence-based learning technique of spaced
+          repetition to provide an interactive learning experience for the
+          user.<br /><br />A foreign word is displayed on the screen, prompting
+          the user to type in the English translation of the word. The user then
+          receives feedback on their answer - whether it was correct or
+          incorrect. The foreign word is then shuffled back into the "stack" of
+          vocabulary words. Words that the user translated incorrectly are shown
+          more frequently than words that were correctly translated in order to
+          reinforce learning of the vocabulary.<br /><br />Created by Jon
+          Jackson and Dana Zinatbakhsh, SpaceR was developed with React,
+          Node/Express, PostgreSQL, Supertest, Mocha, Chai, Cypress, and
+          HTML/CSS. This app also includes user authentication through JSON Web
+          Tokens.
+        </p>
+        <!-- Live Link and GitHub Repo Link-->
+        <div class="links">
+          <a class="project-link" target="_blank" href="https://space-r.now.sh/"
+            >SpaceR Site</a
+          >
+          <span>|</span>
+          <a
+            class="github-link"
+            target="_blank"
+            href="https://github.com/MrNanosh/spaced-repetition"
+            >GitHub Client Repo</a
+          >
+          <span>|</span>
+          <a
+            class="github-link"
+            target="_blank"
+            href="https://github.com/MrNanosh/spaced-repetition-api"
+            >GitHub Server Repo</a
+          >
+        </div>
+
+        <!--digi-doodle-->
+        <div class="slideshow-container">
+          <div class="mySlides3">
+            <img
+              class="slide-image"
+              src="digi3.png"
+              style="width:75%"
+              alt="digi-doodle-screenshot-1"
+            />
+          </div>
+
+          <div class="mySlides3">
+            <img
+              class="slide-image"
+              src="digi1.png"
+              style="width:75%"
+              alt="digi-doodle-screenshot-2"
+            />
+          </div>
+
+          <div class="mySlides3">
+            <img
+              class="slide-image"
+              src="digi2.png"
+              style="width:75%"
+              alt="digi-doodle-screenshot-3"
+            />
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+        </div>
+        <p class="project-description">
+          Digi-Doodle is an application that uses Canvas and Socket.io to
+          re-create the classic game, Pictionary. A user signs up with a
+          username and is automatically navigated to an avaliable game. Players
+          take turns drawing and guessing the corresponding prompts on the
+          screen. When the prompt is answered correctly, the drawer is awarded 2
+          points and the user who guesses correctly receives one point. The
+          first person who reaches 15 points wins the game!<br /><br />Built by
+          Sophia Koeut, Michael Weedman, Jon Jackson, Austin Tumlinson, and
+          Daniel Kent.<br /><br />Technologies used: HTML/CSS, React, Restful
+          API, Cookies, Socket.io, Jest, Enzyme, Node/Express, Mocha, Chai.
+        </p>
+        <!-- Live Link and GitHub Repo Link-->
+        <div class="links">
+          <a
+            class="project-link"
+            target="_blank"
+            href="https://digi-doodle.now.sh/"
+            >Digi-Doodle Site</a
+          >
+          <span>|</span>
+          <a
+            class="github-link"
+            target="_blank"
+            href="https://github.com/thinkful-ei-iguana/digi-doodle-client"
+            >GitHub Client Repo</a
+          >
+          <span>|</span>
+          <a
+            class="github-link"
+            target="_blank"
+            href="https://github.com/thinkful-ei-iguana/digi-doodle-server"
+            >GitHub Server Repo</a
+          >
+        </div>
+      </section>
+      <!-- END PROJECTS -->
+      <!-- CONTACT INFO -->
+      <section class="contact" id="contact-section">
+        <h3>Contact</h3>
+        <p class="contact-description">
+          You can reach me by email at
+          <a href="mailto:jonathanjackson424@gmail.com"
+            >jonathanjackson424@gmail.com</a
+          >! Also, please find my GitHub and LinkedIn profile pages at these
+          links:
+        </p>
+        <!--CONTACT FORM -->
+        <!--
          <section class="contact-form">
             <form class="form-container"action="jonathanjackson424@gmail.com" method="post">
                <div>
@@ -153,19 +305,34 @@
                   <button type="submit">Send your message</button>
                </div>
             </form> -->
-            <!--END CONTACT FORM -->
-            <!--GITHUB AND LINKEDIN LINKS-->
-            <span><a class="github-profile" href="https://github.com/jon424" target="_blank"><img id ="githubimg" src="Octocat.png" alt="Link To Github Profile"></a><span class="space">  </span>
-            <a class="linkedin-profile" href="https://www.linkedin.com/in/jonjackson424" target="_blank"><img id="linkedinimg" src="LI-Logo.png" alt="Link To LinkedIn Profile"></a>
-            </span>
-        </section>
-
+        <!--END CONTACT FORM -->
+        <!--GITHUB AND LINKEDIN LINKS-->
+        <span
+          ><a
+            class="github-profile"
+            href="https://github.com/jon424"
+            target="_blank"
+            ><img
+              id="githubimg"
+              src="Octocat.png"
+              alt="Link To Github Profile"/></a
+          ><span class="space"> </span>
+          <a
+            class="linkedin-profile"
+            href="https://www.linkedin.com/in/jonjackson424"
+            target="_blank"
+            ><img
+              id="linkedinimg"
+              src="LI-Logo.png"
+              alt="Link To LinkedIn Profile"
+          /></a>
+        </span>
+      </section>
     </main>
-    <footer role="content-info">
-        <span>Site designed by Jon Jackson</span>
+    <footer>
+      <span>Site designed by Jon Jackson</span>
+    </footer>
 
-            
-<script src="index.js" type="text/javascript"></script>
-</body>
-
+    <script src="index.js" type="text/javascript"></script>
+  </body>
 </html>
