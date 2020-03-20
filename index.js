@@ -22,3 +22,21 @@ function showSlides(n, no) {
   }
   x[slideIndex[no] - 1].style.display = 'block';
 }
+
+
+
+const menu = document.getElementById('menu-div');
+const closeIcon = document.getElementById('toggle');
+
+menu.addEventListener('click', handleMenuClick);
+
+function handleMenuClick(event) {
+  if (event.target instanceof HTMLAnchorElement) {
+    closeIcon.checked = false;
+    console.log(closeIcon);
+  }
+}
+
+
+
+

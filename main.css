@@ -26,6 +26,7 @@ footer {
   text-align: right;
   height: 70px;
   line-height: 70px;
+  z-index: 1;
 }
 .menu {
   margin: 0 30px 0 0;
@@ -174,6 +175,10 @@ img {
  
 }
 
+.projects {
+  padding-top: 72px;
+}
+
 .projects-heading {
   margin-right: 25%;
   margin-left: 25%;
@@ -317,7 +322,7 @@ footer a {
     color: white;
   }
 
-  .menu {
+  .menu  {
     text-align: center;
     width: 100%;
     display: none;
@@ -333,9 +338,18 @@ footer a {
     clear: right;
   }
 
+  .menu {
+    display: none;
+  }
+
   #toggle:checked + .menu {
     display: block;
   }
+
+
+ 
+
+  
 
   .slide-image {
     width: 100%;
