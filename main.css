@@ -121,7 +121,8 @@ img {
 }
 
 .contact-description {
-  text-align: justify;
+ display: block
+ margin: 0 auto;
 }
 
 /* Slideshow container */
@@ -354,12 +355,8 @@ footer a {
   .projects-heading,
   .project-description,
   .contact-description {
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-
-  .contact-description {
-    text-align: center;
+    margin-right: 75px;
+  margin-left: 75px;
   }
 }
 
@@ -378,7 +375,8 @@ footer a {
   }
 
   .contact-description {
-    text-align: center;
+    margin-right: 75px;
+  margin-left: 75px;
   }
 }
 
@@ -419,9 +417,7 @@ footer a {
     width: 75%;
   }
 
-  .contact-description {
-    text-align: justify;
-  }
+
 }
 
 @media only screen and (max-width: 1000px) {

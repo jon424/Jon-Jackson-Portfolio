@@ -37,6 +37,3 @@ function handleMenuClick(event) {
   }
 }
 
-
-
-
